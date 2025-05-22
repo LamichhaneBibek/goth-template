@@ -22,7 +22,7 @@ WORKDIR /root/
 
 # Copies binary from previous container
 COPY --from=builder /app/bin/main .
-
+ENV APP_PORT=8080
 EXPOSE 8080
 
 CMD ["./main"]
