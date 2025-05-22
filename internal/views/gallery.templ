@@ -1,0 +1,308 @@
+package views
+
+import "github.com/LamichhaneBibek/goth-template/internal/components"
+
+templ Gallery(title string) {
+	@components.Layout(title)
+	@components.NavBar()
+	<!--====================================================================
+            Start Banner Section
+        =====================================================================-->
+	<section class="banner-section overlay">
+		<div class="banner-inner">
+			<h2 class="page-title">Gallery</h2>
+			<nav class="mt-150" aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="/">Home</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Gallery</li>
+				</ol>
+			</nav>
+		</div>
+	</section>
+	<!--====================================================================
+            End Banner Section
+        =====================================================================-->
+	<!--====================================================================
+            Start Gallery Section
+        =====================================================================-->
+	<section class="gallery-section mt-90 mb-85">
+		<div class="section-title text-center mb-45 wow customFadeInUp delay-0-1s slow">
+			<h2>Photo Gallery</h2>
+			<div class="separator mt-10">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</div>
+		</div>
+		<div class="gallery-wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="gallery-single-item wow customFadeInUp delay-0-2s slow">
+							<div class="gallery-image">
+								<img src="/static/images/gallery/gellery4.png" alt="Gallery Image"/>
+							</div>
+							<div class="gallery-content">
+								<div class="place-date">
+									<span>Place: Coxbazar</span>
+									<span>Date: 10 April 2025</span>
+								</div>
+								<a href="/static/images/gallery/gellery4.png" class="zoom"><i class="flaticon-add"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="gallery-single-item wow customFadeInUp delay-0-4s slow">
+							<div class="gallery-image">
+								<img src="/static/images/gallery/gellery5.png" alt="Gallery Image"/>
+							</div>
+							<div class="gallery-content">
+								<div class="place-date">
+									<span>Place: Coxbazar</span>
+									<span>Date: 10 April 2025</span>
+								</div>
+								<a href="/static/images/gallery/gellery5.png" class="zoom"><i class="flaticon-add"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="gallery-single-item wow customFadeInUp delay-0-6s slow">
+							<div class="gallery-image">
+								<img src="/static/images/gallery/gellery1.png" alt="Gallery Image"/>
+							</div>
+							<div class="gallery-content">
+								<div class="place-date">
+									<span>Place: Coxbazar</span>
+									<span>Date: 10 April 2025</span>
+								</div>
+								<a href="/static/images/gallery/gellery1.png" class="zoom"><i class="flaticon-add"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="gallery-single-item wow customFadeInUp delay-0-8s slow">
+							<div class="gallery-image">
+								<img src="/static/images/gallery/gellery2.png" alt="Gallery Image"/>
+							</div>
+							<div class="gallery-content">
+								<div class="place-date">
+									<span>Place: Coxbazar</span>
+									<span>Date: 10 April 2025</span>
+								</div>
+								<a href="/static/images/gallery/gellery2.png" class="zoom"><i class="flaticon-add"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="gallery-single-item wow customFadeInUp delay-1s slow">
+							<div class="gallery-image">
+								<img src="/static/images/gallery/gellery3.png" alt="Gallery Image"/>
+							</div>
+							<div class="gallery-content">
+								<div class="place-date">
+									<span>Place: Coxbazar</span>
+									<span>Date: 10 April 2025</span>
+								</div>
+								<a href="/static/images/gallery/gellery3.png" class="zoom"><i class="flaticon-add"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-8">
+						<div class="gallery-single-item wow customFadeInUp delay-1-2s slow">
+							<div class="gallery-image">
+								<img src="/static/images/gallery/gellery6.png" alt="Gallery Image"/>
+							</div>
+							<div class="gallery-content">
+								<div class="place-date">
+									<span>Place: Coxbazar</span>
+									<span>Date: 10 April 2025</span>
+								</div>
+								<a href="/static/images/gallery/gellery6.png" class="zoom"><i class="flaticon-add"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="gallery-single-item wow customFadeInUp delay-1-4s slow">
+							<div class="gallery-image">
+								<img src="/static/images/gallery/gellery7.png" alt="Gallery Image"/>
+							</div>
+							<div class="gallery-content">
+								<div class="place-date">
+									<span>Place: Coxbazar</span>
+									<span>Date: 10 April 2025</span>
+								</div>
+								<a href="/static/images/gallery/gellery7.png" class="zoom"><i class="flaticon-add"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="gallery-slider owl-carousel wow customFadeInUp delay-1-2s slow">
+					<div class="gallery-single-item">
+						<div class="gallery-image">
+							<img src="/static/images/gallery/gs1.png" alt="Gallery Image"/>
+						</div>
+						<div class="gallery-content">
+							<div class="place-date">
+								<span>Place: Coxbazar</span>
+								<span>Date: 10 April 2025</span>
+							</div>
+							<a href="/static/images/gallery/gs1.png" class="zoom"><i class="flaticon-add"></i></a>
+						</div>
+					</div>
+					<div class="gallery-single-item">
+						<div class="gallery-image">
+							<img src="/static/images/gallery/gs2.png" alt="Gallery Image"/>
+						</div>
+						<div class="gallery-content">
+							<div class="place-date">
+								<span>Place: Coxbazar</span>
+								<span>Date: 10 April 2025</span>
+							</div>
+							<a href="/static/images/gallery/gs2.png" class="zoom"><i class="flaticon-add"></i></a>
+						</div>
+					</div>
+					<div class="gallery-single-item">
+						<div class="gallery-image">
+							<img src="/static/images/gallery/gs3.png" alt="Gallery Image"/>
+						</div>
+						<div class="gallery-content">
+							<div class="place-date">
+								<span>Place: Coxbazar</span>
+								<span>Date: 10 April 2025</span>
+							</div>
+							<a href="/static/images/gallery/gs3.png" class="zoom"><i class="flaticon-add"></i></a>
+						</div>
+					</div>
+					<div class="gallery-single-item">
+						<div class="gallery-image">
+							<img src="/static/images/gallery/gs1.png" alt="Gallery Image"/>
+						</div>
+						<div class="gallery-content">
+							<div class="place-date">
+								<span>Place: Coxbazar</span>
+								<span>Date: 10 April 2025</span>
+							</div>
+							<a href="/static/images/gallery/gs1.png" class="zoom"><i class="flaticon-add"></i></a>
+						</div>
+					</div>
+					<div class="gallery-single-item">
+						<div class="gallery-image">
+							<img src="/static/images/gallery/gs2.png" alt="Gallery Image"/>
+						</div>
+						<div class="gallery-content">
+							<div class="place-date">
+								<span>Place: Coxbazar</span>
+								<span>Date: 10 April 2025</span>
+							</div>
+							<a href="/static/images/gallery/gs2.png" class="zoom"><i class="flaticon-add"></i></a>
+						</div>
+					</div>
+					<div class="gallery-single-item">
+						<div class="gallery-image">
+							<img src="/static/images/gallery/gs3.png" alt="Gallery Image"/>
+						</div>
+						<div class="gallery-content">
+							<div class="place-date">
+								<span>Place: Coxbazar</span>
+								<span>Date: 10 April 2025</span>
+							</div>
+							<a href="/static/images/gallery/gs3.png" class="zoom"><i class="flaticon-add"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="gallery-page-more">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="gallery-single-item wow customFadeInUp delay-1s slow">
+								<div class="gallery-image">
+									<img src="/static/images/gallery/gallery8.png" alt="Gallery Image"/>
+								</div>
+								<div class="gallery-content">
+									<div class="place-date">
+										<span>Place: Coxbazar</span>
+										<span>Date: 10 April 2025</span>
+									</div>
+									<a href="/static/images/gallery/gallery8.png" class="zoom"><i class="flaticon-add"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="gallery-single-item wow customFadeInUp delay-1-2s slow">
+								<div class="gallery-image">
+									<img src="/static/images/gallery/gallery9.png" alt="Gallery Image"/>
+								</div>
+								<div class="gallery-content">
+									<div class="place-date">
+										<span>Place: Coxbazar</span>
+										<span>Date: 10 April 2025</span>
+									</div>
+									<a href="/static/images/gallery/gallery9.png" class="zoom"><i class="flaticon-add"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="gallery-single-item wow customFadeInUp delay-1-4s slow">
+								<div class="gallery-image">
+									<img src="/static/images/gallery/gallery10.png" alt="Gallery Image"/>
+								</div>
+								<div class="gallery-content">
+									<div class="place-date">
+										<span>Place: Coxbazar</span>
+										<span>Date: 10 April 2025</span>
+									</div>
+									<a href="/static/images/gallery/gallery10.png" class="zoom"><i class="flaticon-add"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="gallery-single-item wow customFadeInUp delay-0-2s slow">
+								<div class="gallery-image">
+									<img src="/static/images/gallery/gellery1.png" alt="Gallery Image"/>
+								</div>
+								<div class="gallery-content">
+									<div class="place-date">
+										<span>Place: Coxbazar</span>
+										<span>Date: 10 April 2025</span>
+									</div>
+									<a href="/static/images/gallery/gellery1.png" class="zoom"><i class="flaticon-add"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="gallery-single-item wow customFadeInUp delay-0-4s slow">
+								<div class="gallery-image">
+									<img src="/static/images/gallery/gellery2.png" alt="Gallery Image"/>
+								</div>
+								<div class="gallery-content">
+									<div class="place-date">
+										<span>Place: Coxbazar</span>
+										<span>Date: 10 April 2025</span>
+									</div>
+									<a href="/static/images/gallery/gellery2.png" class="zoom"><i class="flaticon-add"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="gallery-single-item wow customFadeInUp delay-0-6s slow">
+								<div class="gallery-image">
+									<img src="/static/images/gallery/gellery3.png" alt="Gallery Image"/>
+								</div>
+								<div class="gallery-content">
+									<div class="place-date">
+										<span>Place: Coxbazar</span>
+										<span>Date: 10 April 2025</span>
+									</div>
+									<a href="/static/images/gallery/gellery3.png" class="zoom"><i class="flaticon-add"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====================================================================
+            End Gallery Section
+        =====================================================================-->
+	@components.Footer()
+}
