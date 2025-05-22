@@ -1,0 +1,375 @@
+package views
+
+import "github.com/LamichhaneBibek/goth-template/internal/components"
+
+templ About(about string) {
+	@components.Layout(about)
+	@components.NavBar()
+	<!--====================================================================
+    Start Banner Section
+=====================================================================-->
+	<section class="banner-section overlay">
+		<div class="banner-inner">
+			<h2 class="page-title">About Me</h2>
+			<nav class="mt-150" aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+					<li class="breadcrumb-item active" aria-current="page">About Me</li>
+				</ol>
+			</nav>
+		</div>
+	</section>
+	<!--====================================================================
+    End Banner Section
+=====================================================================-->
+	<!--====================================================================
+    Start About Section
+=====================================================================-->
+	<section class="about-section mt-100 mb-95">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="about-image rmb-50 wow customFadeInUp delay-0-1s slow">
+						<img src="/static/images/about-me.png" alt="About"/>
+					</div>
+				</div>
+				<div class="col-lg-6 d-flex align-items-end">
+					<div class="about-content ml-30 rml-0 wow customFadeInUp delay-0-3s slow">
+						<h5>Hi, I'M Fahima</h5>
+						<h3>I travel to different tourist place around the world and blog about all of them</h3>
+						<p>Adipisicing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam Consectetur adipisicing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam Consectetur adipisicing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+						<div class="btn-three mt-30 mb-50 rmb-0">
+							<a href="contact.html" class="theme-btn">Contact Me</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====================================================================
+    End About Section
+=====================================================================-->
+	<!--====================================================================
+    Start Skills Section
+=====================================================================-->
+	<section class="skills-section mb-60">
+		<div class="section-title text-center mb-45 wow customFadeInUp delay-0-1s slow">
+			<h2>My Skills</h2>
+			<div class="separator mt-10">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+					<div class="skill-item wow customFadeInUp delay-0-2s slow">
+						<div class="progress-content one">
+							<h2>0</h2>
+						</div>
+						<h4>Photography</h4>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="skill-item wow customFadeInUp delay-0-4s slow">
+						<div class="progress-content two">
+							<h2>0</h2>
+						</div>
+						<h4>UI / UX Design</h4>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="skill-item wow customFadeInUp delay-0-6s slow">
+						<div class="progress-content three">
+							<h2>0</h2>
+						</div>
+						<h4>Marketing</h4>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="skill-item wow customFadeInUp delay-0-8s slow">
+						<div class="progress-content four">
+							<h2>0</h2>
+						</div>
+						<h4>SEO</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====================================================================
+    End Recent Post Section
+=====================================================================-->
+	<!--====================================================================
+    Start Featured Post Section
+=====================================================================-->
+	<section class="featured-post mb-100">
+		<div class="section-title text-center mb-45">
+			<h2>Featured Posts</h2>
+			<div class="separator mt-10">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</div>
+		</div>
+		<div class="featured-carousel owl-carousel">
+			<div class="blog-single-item style-four">
+				<div class="blog-image">
+					<img src="/static/images/blog/fp1.png" alt="Featured post image"/>
+				</div>
+				<div class="blog-content">
+					<div class="content-bottom">
+						<a class="link-icon" href="blog-details.html"><i class="flaticon-link"></i></a>
+						<h6><a href="blog-details.html">The captivating natural beauty is truly amazing</a></h6>
+						<div class="by-views">
+							<span class="admin">BY: Admin</span>
+							<span class="date">10 April 2025</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="blog-single-item style-four">
+				<div class="blog-image">
+					<img src="/static/images/blog/fp2.png" alt="Featured post image"/>
+				</div>
+				<div class="blog-content">
+					<div class="content-bottom">
+						<a class="link-icon" href="blog-details.html"><i class="flaticon-link"></i></a>
+						<h6><a href="blog-details.html">The captivating natural beauty is truly amazing</a></h6>
+						<div class="by-views">
+							<span class="admin">BY: Admin</span>
+							<span class="date">10 April 2025</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="blog-single-item style-four">
+				<div class="blog-image">
+					<img src="/static/images/blog/fp3.png" alt="Featured post image"/>
+				</div>
+				<div class="blog-content">
+					<div class="content-bottom">
+						<a class="link-icon" href="blog-details.html"><i class="flaticon-link"></i></a>
+						<h6><a href="blog-details.html">The captivating natural beauty is truly amazing</a></h6>
+						<div class="by-views">
+							<span class="admin">BY: Admin</span>
+							<span class="date">10 April 2025</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="blog-single-item style-four">
+				<div class="blog-image">
+					<img src="/static/images/blog/fp4.png" alt="Featured post image"/>
+				</div>
+				<div class="blog-content">
+					<div class="content-bottom">
+						<a class="link-icon" href="blog-details.html"><i class="flaticon-link"></i></a>
+						<h6><a href="blog-details.html">The captivating natural beauty is truly amazing</a></h6>
+						<div class="by-views">
+							<span class="admin">BY: Admin</span>
+							<span class="date">10 April 2025</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="blog-single-item style-four">
+				<div class="blog-image">
+					<img src="/static/images/blog/fp5.png" alt="Featured post image"/>
+				</div>
+				<div class="blog-content">
+					<div class="content-bottom">
+						<a class="link-icon" href="blog-details.html"><i class="flaticon-link"></i></a>
+						<h6><a href="blog-details.html">The captivating natural beauty is truly amazing</a></h6>
+						<div class="by-views">
+							<span class="admin">BY: Admin</span>
+							<span class="date">10 April 2025</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="blog-single-item style-four">
+				<div class="blog-image">
+					<img src="/static/images/blog/fp3.png" alt="Featured post image"/>
+				</div>
+				<div class="blog-content">
+					<div class="content-bottom">
+						<a class="link-icon" href="blog-details.html"><i class="flaticon-link"></i></a>
+						<h6><a href="blog-details.html">The captivating natural beauty is truly amazing</a></h6>
+						<div class="by-views">
+							<span class="admin">BY: Admin</span>
+							<span class="date">10 April 2025</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====================================================================
+    End Recent Post Section
+=====================================================================-->
+	<!--====================================================================
+    Start Gallery Section
+=====================================================================-->
+	<section class="gallery-section mb-85">
+		<div class="section-title text-center mb-45 wow customFadeInUp delay-0-1s slow">
+			<h2>Photo Gallery</h2>
+			<div class="separator mt-10">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</div>
+		</div>
+		<div class="gallery-wrap gallery-more">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="gallery-single-item wow customFadeInUp delay-0-2s slow">
+							<div class="gallery-image">
+								<img src="/static/images/gallery/gellery1.png" alt="Gallery Image"/>
+							</div>
+							<div class="gallery-content">
+								<div class="place-date">
+									<span>Place: Coxbazar</span>
+									<span>Date: 10 April 2025</span>
+								</div>
+								<a href="/static/images/gallery/gellery1.png" class="zoom"><i class="flaticon-add"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="gallery-single-item wow customFadeInUp delay-0-4s slow">
+							<div class="gallery-image">
+								<img src="/static/images/gallery/gellery2.png" alt="Gallery Image"/>
+							</div>
+							<div class="gallery-content">
+								<div class="place-date">
+									<span>Place: Coxbazar</span>
+									<span>Date: 10 April 2025</span>
+								</div>
+								<a href="/static/images/gallery/gellery2.png" class="zoom"><i class="flaticon-add"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="gallery-single-item wow customFadeInUp delay-0-6s slow">
+							<div class="gallery-image">
+								<img src="/static/images/gallery/gellery3.png" alt="Gallery Image"/>
+							</div>
+							<div class="gallery-content">
+								<div class="place-date">
+									<span>Place: Coxbazar</span>
+									<span>Date: 10 April 2025</span>
+								</div>
+								<a href="/static/images/gallery/gellery3.png" class="zoom"><i class="flaticon-add"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="gallery-single-item wow customFadeInUp delay-0-8s slow">
+							<div class="gallery-image">
+								<img src="/static/images/gallery/gellery4.png" alt="Gallery Image"/>
+							</div>
+							<div class="gallery-content">
+								<div class="place-date">
+									<span>Place: Coxbazar</span>
+									<span>Date: 10 April 2025</span>
+								</div>
+								<a href="/static/images/gallery/gellery4.png" class="zoom"><i class="flaticon-add"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="gallery-single-item wow customFadeInUp delay-1s slow">
+							<div class="gallery-image">
+								<img src="/static/images/gallery/gellery5.png" alt="Gallery Image"/>
+							</div>
+							<div class="gallery-content">
+								<div class="place-date">
+									<span>Place: Coxbazar</span>
+									<span>Date: 10 April 2025</span>
+								</div>
+								<a href="/static/images/gallery/gellery5.png" class="zoom"><i class="flaticon-add"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-8">
+						<div class="gallery-single-item wow customFadeInUp delay-1-2s slow">
+							<div class="gallery-image">
+								<img src="/static/images/gallery/gellery6.png" alt="Gallery Image"/>
+							</div>
+							<div class="gallery-content">
+								<div class="place-date">
+									<span>Place: Coxbazar</span>
+									<span>Date: 10 April 2025</span>
+								</div>
+								<a href="/static/images/gallery/gellery6.png" class="zoom"><i class="flaticon-add"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="gallery-single-item wow customFadeInUp delay-1-4s slow">
+							<div class="gallery-image">
+								<img src="/static/images/gallery/gellery7.png" alt="Gallery Image"/>
+							</div>
+							<div class="gallery-content">
+								<div class="place-date">
+									<span>Place: Coxbazar</span>
+									<span>Date: 10 April 2025</span>
+								</div>
+								<a href="/static/images/gallery/gellery7.png" class="zoom"><i class="flaticon-add"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="gallery-single-item wow customFadeInUp delay-0-2s slow">
+							<div class="gallery-image">
+								<img src="/static/images/gallery/gellery1.png" alt="Gallery Image"/>
+							</div>
+							<div class="gallery-content">
+								<div class="place-date">
+									<span>Place: Coxbazar</span>
+									<span>Date: 10 April 2025</span>
+								</div>
+								<a href="/static/images/gallery/gellery1.png" class="zoom"><i class="flaticon-add"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="gallery-single-item wow customFadeInUp delay-0-4s slow">
+							<div class="gallery-image">
+								<img src="/static/images/gallery/gellery2.png" alt="Gallery Image"/>
+							</div>
+							<div class="gallery-content">
+								<div class="place-date">
+									<span>Place: Coxbazar</span>
+									<span>Date: 10 April 2025</span>
+								</div>
+								<a href="/static/images/gallery/gellery2.png" class="zoom"><i class="flaticon-add"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="gallery-single-item wow customFadeInUp delay-0-6s slow">
+							<div class="gallery-image">
+								<img src="/static/images/gallery/gellery3.png" alt="Gallery Image"/>
+							</div>
+							<div class="gallery-content">
+								<div class="place-date">
+									<span>Place: Coxbazar</span>
+									<span>Date: 10 April 2025</span>
+								</div>
+								<a href="/static/images/gallery/gellery3.png" class="zoom"><i class="flaticon-add"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====================================================================
+    End Gallery Section
+=====================================================================-->
+	@components.Footer()
+}

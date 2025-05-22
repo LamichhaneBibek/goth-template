@@ -1,0 +1,43 @@
+package components
+
+templ Layout(title string) {
+	<!DOCTYPE html>
+	<html lang="zxx">
+		<head>
+			<meta charset="utf-8"/>
+			<title>Fahima - Responsive HTML 5 Template</title>
+			<!-- Fav Icons -->
+			<link rel="shortcut icon" href="/static/images/favicon.png" type="image/x-icon"/>
+			<!-- Stylesheets -->
+			<link rel="stylesheet" href="/static/css/style1.css"/>
+			<link rel="stylesheet" href="/static/css/responsive.css"/>
+			<!-- Responsive -->
+			<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+			<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+		</head>
+		<body>
+			<div class="page-wrapper">
+				<!-- Preloader -->
+				<div class="preloader"></div>
+				{ children... }
+			</div>
+			<!--End pagewrapper-->
+			<!-- Scroll Top Button -->
+			<button class="scroll-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></button>
+			<!-- jequery plugins -->
+			<script src="/static/js/jquery.min.js"></script>
+			<script src="/static/js/bootstrap.min.js"></script>
+			<script src="/static/js/jquery.magnific-popup.min.js"></script>
+			<script src="/static/js/jquery.simpleLoadMore.min.js"></script>
+			<script src="/static/js/circle-progress.min.js"></script>
+			<script src="/static/js/audioplayer.js"></script>
+			<script src="/static/js/leaflet.min.js"></script>
+			<script src="/static/js/appear.js"></script>
+			<script src="/static/js/owl.js"></script>
+			<script src="/static/js/wow.js"></script>
+			<!-- Custom script -->
+			<script src="/static/js/script.js"></script>
+		</body>
+	</html>
+}
