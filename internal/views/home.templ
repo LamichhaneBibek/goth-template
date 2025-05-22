@@ -1,0 +1,466 @@
+
+package views
+
+import "github.com/LamichhaneBibek/goth-template/internal/components"
+
+templ Home(title string) {
+	@components.Layout(title)
+	@components.NavBar()
+	<!--====================================================================
+            Start Slider Section
+        =====================================================================-->
+	<section class="slider-section">
+		<div class="main-slider-carousel owl-carousel">
+			<div class="slider-single-item" style="background-image: url('/static/images/slider/slider-1.png')">
+				<div class="item-inner">
+					<h2>HI I'M</h2>
+					<h2 class="name">FAHIMA</h2>
+					<p>I travel to different tourist place around the world and blog about all of them</p>
+				</div>
+			</div>
+			<div class="slider-single-item" style="background-image: url('/static/images/slider/slider-3.png')">
+				<div class="item-inner">
+					<h2>HI I'M</h2>
+					<h2 class="name">FAHIMA</h2>
+					<p>I travel to different tourist place around the world and blog about all of them</p>
+				</div>
+			</div>
+			<div class="slider-single-item" style="background-image: url('/static/images/slider/slider-5.png')">
+				<div class="item-inner">
+					<h2>HI I'M</h2>
+					<h2 class="name">FAHIMA</h2>
+					<p>I travel to different tourist place around the world and blog about all of them</p>
+				</div>
+			</div>
+		</div>
+		<div class="slider-icons">
+			<div class="social-icon">
+				<a href="#"><i class="flaticon-facebook"></i></a>
+				<a href="#"><i class="flaticon-instagram"></i></a>
+				<a href="#"><i class="flaticon-twitter"></i></a>
+				<a href="#"><i class="flaticon-vimeo"></i></a>
+			</div>
+		</div>
+	</section>
+	<!--====================================================================
+            End Slider Section
+        =====================================================================-->
+	<!--====================================================================
+            Start Popular Post Section
+        =====================================================================-->
+	<section class="popular-post my-100">
+		<div class="container">
+			<div class="section-title text-center mb-45 wow customFadeInUp slow">
+				<h2>Most Popular Posts</h2>
+				<div class="separator mt-10">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="blog-single-item style-one wow customFadeInUp delay-0-2s slow">
+						<div class="blog-image">
+							<img src="/static/images/blog/pp1.png" alt="Popular post image"/>
+						</div>
+						<div class="blog-content">
+							<div class="date">
+								<i class="flaticon-clock"></i> 10 April 2025
+							</div>
+							<div class="content-bottom">
+								<h4><a href="blog-details.html">The beach is truly an amazing beauty of nature</a></h4>
+								<div class="by-views">
+									<span class="admin">BY: Fahima</span>
+									<span class="love"><i class="flaticon-heart"></i>45.6K</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="blog-single-item style-one wow customFadeInUp delay-0-4s slow">
+						<div class="blog-image">
+							<img src="/static/images/blog/pp2.png" alt="Popular post image"/>
+						</div>
+						<div class="blog-content">
+							<div class="date">
+								<i class="flaticon-clock"></i> 10 April 2025
+							</div>
+							<div class="content-bottom">
+								<h4><a href="blog-details.html">Amazing beauty of nature the mountains always call to me</a></h4>
+								<div class="by-views">
+									<span class="admin">BY: Admin</span>
+									<span class="love"><i class="flaticon-heart"></i>45.6K</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="blog-single-item style-one wow customFadeInUp delay-0-5s slow">
+						<div class="blog-image">
+							<img src="/static/images/blog/pp3.png" alt="Popular post image"/>
+						</div>
+						<div class="blog-content">
+							<div class="date">
+								<i class="flaticon-clock"></i> 10 April 2025
+							</div>
+							<div class="content-bottom">
+								<h4><a href="blog-details.html">Amazing beauty of nature the mountains always call to me</a></h4>
+								<div class="by-views">
+									<span class="admin">BY: Admin</span>
+									<span class="love"><i class="flaticon-heart"></i>45.6K</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="blog-single-item style-two wow customFadeInUp delay-0-6s slow">
+						<div class="blog-image">
+							<img src="/static/images/blog/pp4.png" alt="Popular post image"/>
+						</div>
+						<div class="blog-content">
+							<div class="content-bottom">
+								<h6><a href="blog-details.html">The captivating natural beauty is truly amazing</a></h6>
+								<div class="by-views">
+									<span class="date"><i class="flaticon-clock"></i> 10 April 2025</span>
+									<span class="love"><i class="flaticon-heart"></i>45.6K</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="blog-single-item style-two wow customFadeInUp delay-0-7s slow">
+						<div class="blog-image">
+							<img src="/static/images/blog/pp5.png" alt="Popular post image"/>
+						</div>
+						<div class="blog-content">
+							<div class="content-bottom">
+								<h6><a href="blog-details.html">The captivating natural beauty is truly amazing</a></h6>
+								<div class="by-views">
+									<span class="date"><i class="flaticon-clock"></i> 10 April 2025</span>
+									<span class="love"><i class="flaticon-heart"></i>45.6K</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="blog-single-item style-two wow customFadeInUp delay-0-8s slow">
+						<div class="blog-image">
+							<img src="/static/images/blog/pp6.png" alt="Popular post image"/>
+						</div>
+						<div class="blog-content">
+							<div class="content-bottom">
+								<h6><a href="blog-details.html">The captivating natural beauty is truly amazing</a></h6>
+								<div class="by-views">
+									<span class="date"><i class="flaticon-clock"></i> 10 April 2025</span>
+									<span class="love"><i class="flaticon-heart"></i>45.6K</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="blog-single-item style-two wow customFadeInUp delay-0-9s slow">
+						<div class="blog-image">
+							<img src="/static/images/blog/pp7.png" alt="Popular post image"/>
+						</div>
+						<div class="blog-content">
+							<div class="content-bottom">
+								<h6><a href="blog-details.html">The captivating natural beauty is truly amazing</a></h6>
+								<div class="by-views">
+									<span class="date"><i class="flaticon-clock"></i> 10 April 2025</span>
+									<span class="love"><i class="flaticon-heart"></i>45.6K</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====================================================================
+            End Popular Post Section
+        =====================================================================-->
+	<!--====================================================================
+            Start Call To Action Section
+        =====================================================================-->
+	<section class="call-action pt-85 pb-100" style="background-image: url('/static/images/call-action/home1.png');">
+		<div class="container">
+			<div class="call-action-inner text-center">
+				<h3 class="wow customFadeInDown slow">I Travel to different Tourist Area in the World. I Think Traveling Increases Mental Strength And Efficiency</h3>
+				<div class="call-action-btns mt-20">
+					<a href="about.html" class="theme-btn wow customFadeInLeft delay-0-2s slow">About Me</a>
+					<a href="contact.html" class="theme-btn style-two wow customFadeInRight delay-0-2s slow">contact Me</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====================================================================
+            End Call To Action Section
+        =====================================================================-->
+	<!--====================================================================
+            Start Recent Post Section
+        =====================================================================-->
+	<section class="recent-post mt-100 mb-50">
+		<div class="container">
+			<div class="section-title text-center mb-45 wow customFadeInUp slow">
+				<h2>My Recent Posts</h2>
+				<div class="separator mt-10">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="blog-single-item style-three wow customFadeInUp delay-0-2s slow">
+						<div class="blog-image">
+							<img src="/static/images/blog/rp1.png" alt="Recent post image"/>
+						</div>
+						<div class="blog-content">
+							<div class="date">10 April 2025</div>
+							<div class="content-bottom">
+								<h5><a href="blog-details.html">The beach is truly an amazing beauty of nature</a></h5>
+								<div class="by-views">
+									<span class="admin"><b>BY:</b> Fahima</span>
+									<span class="love"><i class="flaticon-heart"></i>45.6K</span>
+								</div>
+								<p>Consectetur adipisicing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam</p>
+								<a class="read-more" href="blog-details.html">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="blog-single-item style-three wow customFadeInUp delay-0-3s slow">
+						<div class="blog-image">
+							<img src="/static/images/blog/rp2.png" alt="Recent post image"/>
+						</div>
+						<div class="blog-content">
+							<div class="date">10 April 2025</div>
+							<div class="content-bottom">
+								<h5><a href="blog-details.html">The captivating natural beauty is truly amazing</a></h5>
+								<div class="by-views">
+									<span class="admin"><b>BY:</b> Fahima</span>
+									<span class="love"><i class="flaticon-heart"></i>45.6K</span>
+								</div>
+								<p>Consectetur adipisicing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam</p>
+								<a class="read-more" href="blog-details.html">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="blog-single-item style-three wow customFadeInUp delay-0-5s slow">
+						<div class="blog-video overlay">
+							<img src="/static/images/blog/rp3.png" alt="Recent post image"/>
+							<a href="https://www.youtube.com/watch?v=16TgusFJwr4&feature=youtu.be" class="video-play mfp-iframe"><i class="flaticon-play"></i></a>
+						</div>
+						<div class="blog-content">
+							<div class="date">10 April 2025</div>
+							<div class="content-bottom">
+								<h5><a href="blog-details.html">The beach is truly an amazing beauty of nature</a></h5>
+								<div class="by-views">
+									<span class="admin"><b>BY:</b> Fahima</span>
+									<span class="love"><i class="flaticon-heart"></i>45.6K</span>
+								</div>
+								<p>Consectetur adipisicing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam</p>
+								<a class="read-more" href="blog-details.html">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="blog-single-item style-three wow customFadeInUp delay-0-6s slow">
+						<div class="blog-image">
+							<img src="/static/images/blog/rp4.png" alt="Recent post image"/>
+						</div>
+						<div class="blog-content">
+							<div class="date">10 April 2025</div>
+							<div class="content-bottom">
+								<h5><a href="blog-details.html">The captivating natural beauty is truly amazing</a></h5>
+								<div class="by-views">
+									<span class="admin"><b>BY:</b> Fahima</span>
+									<span class="love"><i class="flaticon-heart"></i>45.6K</span>
+								</div>
+								<p>Consectetur adipisicing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam</p>
+								<a class="read-more" href="blog-details.html">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====================================================================
+            End Recent Post Section
+        =====================================================================-->
+	<!--====================================================================
+            Start Featured Post Section
+        =====================================================================-->
+	<section class="featured-post mb-100">
+		<div class="section-title text-center mb-45">
+			<h2>Featured Posts</h2>
+			<div class="separator mt-10">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</div>
+		</div>
+		<div class="featured-carousel owl-carousel">
+			<div class="blog-single-item style-four">
+				<div class="blog-image">
+					<img src="/static/images/blog/fp1.png" alt="Featured post image"/>
+				</div>
+				<div class="blog-content">
+					<div class="content-bottom">
+						<a class="link-icon" href="blog-details.html"><i class="flaticon-link"></i></a>
+						<h6><a href="blog-details.html">The captivating natural beauty is truly amazing</a></h6>
+						<div class="by-views">
+							<span class="admin">BY: Admin</span>
+							<span class="date">10 April 2025</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="blog-single-item style-four">
+				<div class="blog-image">
+					<img src="/static/images/blog/fp2.png" alt="Featured post image"/>
+				</div>
+				<div class="blog-content">
+					<div class="content-bottom">
+						<a class="link-icon" href="blog-details.html"><i class="flaticon-link"></i></a>
+						<h6><a href="blog-details.html">The captivating natural beauty is truly amazing</a></h6>
+						<div class="by-views">
+							<span class="admin">BY: Admin</span>
+							<span class="date">10 April 2025</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="blog-single-item style-four">
+				<div class="blog-image">
+					<img src="/static/images/blog/fp3.png" alt="Featured post image"/>
+				</div>
+				<div class="blog-content">
+					<div class="content-bottom">
+						<a class="link-icon" href="blog-details.html"><i class="flaticon-link"></i></a>
+						<h6><a href="blog-details.html">The captivating natural beauty is truly amazing</a></h6>
+						<div class="by-views">
+							<span class="admin">BY: Admin</span>
+							<span class="date">10 April 2025</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="blog-single-item style-four">
+				<div class="blog-image">
+					<img src="/static/images/blog/fp4.png" alt="Featured post image"/>
+				</div>
+				<div class="blog-content">
+					<div class="content-bottom">
+						<a class="link-icon" href="blog-details.html"><i class="flaticon-link"></i></a>
+						<h6><a href="blog-details.html">The captivating natural beauty is truly amazing</a></h6>
+						<div class="by-views">
+							<span class="admin">BY: Admin</span>
+							<span class="date">10 April 2025</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="blog-single-item style-four">
+				<div class="blog-image">
+					<img src="/static/images/blog/fp5.png" alt="Featured post image"/>
+				</div>
+				<div class="blog-content">
+					<div class="content-bottom">
+						<a class="link-icon" href="blog-details.html"><i class="flaticon-link"></i></a>
+						<h6><a href="blog-details.html">The captivating natural beauty is truly amazing</a></h6>
+						<div class="by-views">
+							<span class="admin">BY: Admin</span>
+							<span class="date">10 April 2025</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="blog-single-item style-four">
+				<div class="blog-image">
+					<img src="/static/images/blog/fp3.png" alt="Featured post image"/>
+				</div>
+				<div class="blog-content">
+					<div class="content-bottom">
+						<a class="link-icon" href="blog-details.html"><i class="flaticon-link"></i></a>
+						<h6><a href="blog-details.html">The captivating natural beauty is truly amazing</a></h6>
+						<div class="by-views">
+							<span class="admin">BY: Admin</span>
+							<span class="date">10 April 2025</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====================================================================
+            End Recent Post Section
+        =====================================================================-->
+	<!--====================================================================
+            Start Weekly Post Section
+        =====================================================================-->
+	<section class="weekly-post mb-100">
+		<div class="container">
+			<div class="section-title text-center mb-45 wow customFadeInUp slow">
+				<h2>Weekly Top Posts</h2>
+				<div class="separator mt-10">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</div>
+			</div>
+			<div class="weekly-post-inner">
+				<div class="blog-single-item style-three style-five wow customFadeInRight delay-0-2s slow">
+					<div class="blog-image">
+						<img src="/static/images/blog/wp1.png" alt="Recent post image"/>
+						<div class="date"><i class="flaticon-clock"></i> 10 April 2025</div>
+					</div>
+					<div class="blog-content">
+						<div class="content-bottom">
+							<h5><a href="blog-details.html">The beach is truly an amazing beauty of nature</a></h5>
+							<p>Consectetur adipisicing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam Consectetur adipisicing elitsed do eiusmod tempor incididunt ut labore Consectetur adipisicing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim</p>
+							<p>VeniamConsectetur adipisicing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam</p>
+							<div class="by-views">
+								<span><b>BY:</b> Fahima Khanom</span>
+								<span><b>Comments:</b> 15K</span>
+								<span><b>Share:</b> 1.8K</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="blog-single-item style-three style-five wow customFadeInLeft delay-0-4s slow">
+					<div class="blog-image">
+						<img src="/static/images/blog/wp2.png" alt="Recent post image"/>
+						<div class="date"><i class="flaticon-clock"></i> 10 April 2025</div>
+					</div>
+					<div class="blog-content">
+						<div class="content-bottom">
+							<h5><a href="blog-details.html">The beach is truly an amazing beauty of nature</a></h5>
+							<p>Consectetur adipisicing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam Consectetur adipisicing elitsed do eiusmod tempor incididunt ut labore Consectetur adipisicing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim</p>
+							<p>VeniamConsectetur adipisicing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam</p>
+							<div class="by-views">
+								<span><b>BY:</b> Mithila Sarra</span>
+								<span><b>Comments:</b> 15K</span>
+								<span><b>Share:</b> 1.8K</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====================================================================
+            End Weekly Post Section
+        =====================================================================-->
+	@components.Footer()
+}
