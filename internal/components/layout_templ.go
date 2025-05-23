@@ -29,7 +29,20 @@ func Layout(title string) templ.Component {
 			templ_7745c5c3_Var1 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 1, "<!doctype html><html lang=\"zxx\"><head><meta charset=\"utf-8\"><title>Fahima - Responsive HTML 5 Template</title><!-- Fav Icons --><link rel=\"shortcut icon\" href=\"/static/images/favicon.png\" type=\"image/x-icon\"><!-- Stylesheets --><link rel=\"stylesheet\" href=\"/static/css/style1.css\"><link rel=\"stylesheet\" href=\"/static/css/responsive.css\"><!-- Responsive --><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\"><!--[if lt IE 9]><script src=\"https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js\"></script><![endif]--></head><body><div class=\"page-wrapper\"><!-- Preloader --><div class=\"preloader\"></div>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 1, "<!doctype html><html lang=\"zxx\"><head><meta charset=\"utf-8\"><title>")
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		var templ_7745c5c3_Var2 string
+		templ_7745c5c3_Var2, templ_7745c5c3_Err = templ.JoinStringErrs(title)
+		if templ_7745c5c3_Err != nil {
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/components/layout.templ`, Line: 8, Col: 17}
+		}
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var2))
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 2, "</title><!-- Fav Icons --><link rel=\"shortcut icon\" href=\"/static/images/favicon.png\" type=\"image/x-icon\"><!-- Stylesheets --><link rel=\"stylesheet\" href=\"/static/css/style1.css\"><link rel=\"stylesheet\" href=\"/static/css/responsive.css\"><!-- Responsive --><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\"><!--[if lt IE 9]><script src=\"https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js\"></script><![endif]--></head><body><div class=\"page-wrapper\"><!-- Preloader --><div class=\"preloader\"></div>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -37,7 +50,7 @@ func Layout(title string) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 2, "</div><!--End pagewrapper--><!-- Scroll Top Button --><button class=\"scroll-top scroll-to-target\" data-target=\"html\"><span class=\"fa fa-angle-up\"></span></button><!-- jequery plugins --><script src=\"/static/js/jquery.min.js\"></script><script src=\"/static/js/bootstrap.min.js\"></script><script src=\"/static/js/jquery.magnific-popup.min.js\"></script><script src=\"/static/js/jquery.simpleLoadMore.min.js\"></script><script src=\"/static/js/circle-progress.min.js\"></script><script src=\"/static/js/audioplayer.js\"></script><script src=\"/static/js/leaflet.min.js\"></script><script src=\"/static/js/appear.js\"></script><script src=\"/static/js/owl.js\"></script><script src=\"/static/js/wow.js\"></script><!-- Custom script --><script src=\"/static/js/script.js\"></script></body></html>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "</div><!--End pagewrapper--><!-- Scroll Top Button --><button class=\"scroll-top scroll-to-target\" data-target=\"html\"><span class=\"fa fa-angle-up\"></span></button><!-- jequery plugins --><script src=\"/static/js/jquery.min.js\"></script><script src=\"/static/js/bootstrap.min.js\"></script><script src=\"/static/js/jquery.magnific-popup.min.js\"></script><script src=\"/static/js/jquery.simpleLoadMore.min.js\"></script><script src=\"/static/js/circle-progress.min.js\"></script><script src=\"/static/js/audioplayer.js\"></script><script src=\"/static/js/leaflet.min.js\"></script><script src=\"/static/js/appear.js\"></script><script src=\"/static/js/owl.js\"></script><script src=\"/static/js/wow.js\"></script><!-- Custom script --><script src=\"/static/js/script.js\"></script></body></html>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
